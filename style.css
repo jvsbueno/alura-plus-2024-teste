@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 :root {
     --branco: #FFFFFF;
     --cinza: #C0C0C0;
     --botao-azul: #167bF7;
     --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .principal{
@@ -26,6 +32,7 @@ body{
     padding: 1em;
     color: var(--branco);
     display: block;
+    text-decoration: none;
 }
 
 .botao-secundario{
