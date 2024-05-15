@@ -35,6 +35,7 @@ body{
     color: var(--branco);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao-secundario{
@@ -51,4 +52,12 @@ body{
 .container-titulo{
     font-size: 28px;
     font-weight: 700;
+}
+
+.container-imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container-caixa {
+    margin: 0 6em;
 }
